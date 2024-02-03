@@ -1,0 +1,21 @@
+{
+  "add a plugin dialog": "/nobody/inbox",
+  "auto add path choose": "/calibre-autoscan",
+  "change cover dialog": "/nobody/inbox",
+  "database location dialog": "/calibre-library",
+  "library_delete_books_again": false,
+  "s_r_search_mode": 0,
+  "save to disk dialog": "/nobody/inbox",
+  "sort_history": [
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "kobo_vox",
+  "welcome_wizard_was_run": true
+}

@@ -1,0 +1,264 @@
+{
+  "Plugin Updater plugin:plugin updater dialog": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAHaAAAA6wAABaMAAAMVAAAB2wAAAP8AAAWiAAADEAAAAAAAAAAAB4AAAAHbAAAA/wAABaIAAAMQ"
+  },
+  "action-layout-toolbar": [
+    "Add Books",
+    "Mark Books",
+    null,
+    "Edit Metadata",
+    "Convert Books",
+    "Remove Books",
+    "Tag Mapper",
+    "Polish Books",
+    null,
+    "Generate Catalog",
+    "Similar Books",
+    "Pick Random Book",
+    null,
+    "Connect Share",
+    null,
+    "Preferences",
+    "Restart"
+  ],
+  "auto_add_check_for_duplicates": true,
+  "auto_add_path": "/calibre-autoscan",
+  "automerge": "overwrite",
+  "basic_metadata_widget_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAADAAAA+wAAAWgAAAEZAf////8BAAAAAQA="
+  },
+  "book_details_splitter_horizontal_state": [
+    true,
+    341
+  ],
+  "book_info_dialog_layout": [
+    {
+      "__class__": "bytearray",
+      "__value__": "AdnQywACAAAAAAH3AAAACgAABYYAAAP2AAAB+AAAAB4AAAWFAAAD8QAAAAAAAAAAB4A="
+    },
+    {
+      "__class__": "bytearray",
+      "__value__": "AAAA/wAAAAEAAAACAAABXgAAAXAB/////wEAAAABAA=="
+    }
+  ],
+  "book_list_pin_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
+  },
+  "bulk-mde-casing-algorithm": "title_case",
+  "bulk_metadata_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywACAAAAAAAYAAAAAAAAB1MAAAQeAAAAGQAAABQAAAdSAAAEGQAAAAAAAAAAB4A="
+  },
+  "bulk_metadata_window_tab": 0,
+  "choose-icon-theme-dialog-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAH9AAAAEgAABYIAAAQXAAAB/gAAACYAAAWBAAAEEgAAAAAAAAAAB4AAAAH+AAAAJgAABYEAAAQS"
+  },
+  "cover_browser_splitter_vertical_state": [
+    false,
+    300
+  ],
+  "custom_colors_for_color_dialog": [
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ]
+  ],
+  "duplicates-question-dialog-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywACAAAAAAKmAAABIwAABMUAAAK2AAACpwAAATcAAATEAAACsQAAAAAAAAAAB4A="
+  },
+  "edit-tag-mapper-rules-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAIaAAABLAAABVEAAAKtAAACGwAAAUAAAAVQAAACqAAAAAAAAAAAB4AAAAIbAAABQAAABVAAAAKo"
+  },
+  "filename_pattern_history": [
+    "(?P<title>.+) - (?P<author>[^_]+)",
+    "(?P<title>.+)",
+    "(?P<author>[^_-]+) -?\\s*(?P<series>[^_0-9-]*)(?P<series_index>[0-9]*)\\s*-\\s*(?P<title>[^_].+) ?"
+  ],
+  "grid view visible": false,
+  "image-trim-dialog-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywACAAAAAAHyAAAAwwAABXcAAAMzAAAB8wAAANcAAAV2AAADLgAAAAAAAAAAB4A="
+  },
+  "jobs view column layout3": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfQAAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAAAA"
+  },
+  "jobs_dialog_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywACAAAAAAJ5AAAA0QAABPMAAAMHAAACegAAAOUAAATyAAADAgAAAAAAAAAAB4A="
+  },
+  "library_usage_stats": {
+    "/calibre-library": 15
+  },
+  "manual_add_auto_convert": true,
+  "metadata_single_gui_geom": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywACAAAAAAGvAAAAhAAABuEAAAOOAAABsAAAAJgAAAbgAAADiQAAAAAAAAAAB4A="
+  },
+  "metasingle_window_geometry3": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAYAAAAAAAAB1MAAAQeAAAAGQAAABQAAAdSAAAEGQAAAAAAAAAAB4AAAAAZAAAAFAAAB1IAAAQZ"
+  },
+  "polish_settings": {
+    "Polish": {
+      "compress_images": false,
+      "do_cover": false,
+      "embed": true,
+      "jacket": false,
+      "metadata": true,
+      "remove_jacket": true,
+      "remove_unused_css": true,
+      "smarten_punctuation": true,
+      "subset": true
+    }
+  },
+  "polish_show_reports": true,
+  "polishing_settings": {
+    "add_soft_hyphens": false,
+    "compress_images": false,
+    "do_cover": false,
+    "embed": true,
+    "jacket": false,
+    "metadata": true,
+    "remove_jacket": true,
+    "remove_soft_hyphens": false,
+    "remove_unused_css": true,
+    "smarten_punctuation": true,
+    "subset": true,
+    "upgrade_book": false
+  },
+  "preferences dialog geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAHvAAAAtAAABZIAAAOcAAAB8AAAAMgAAAWRAAADlwAAAAAAAAAAB4AAAAHwAAAAyAAABZEAAAOX"
+  },
+  "previous_sort_order_BooksView": {
+    "authors": true,
+    "series": true,
+    "title": false
+  },
+  "quick_start_guide_added": true,
+  "quickview visible": false,
+  "quickview_dialog_books_table_widths": [
+    182,
+    182,
+    182
+  ],
+  "quickview_dialog_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAI1AAABNQAABTYAAAKjAAACNgAAAUkAAAU1AAACngAAAAAAAAAAB4AAAAI2AAABSQAABTUAAAKe"
+  },
+  "quickview_is_pane": true,
+  "recently_used_languages": [
+    "English",
+    "Dutch"
+  ],
+  "search bar visible": true,
+  "server3_warning_done": true,
+  "single-cover-fetch-dialog-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywACAAAAAAILAAAAwwAABV4AAAMzAAACDAAAANcAAAVdAAADLgAAAAAAAAAAB4A="
+  },
+  "tag browser search box visible": false,
+  "tag_browser_splitter_horizontal_state": [
+    true,
+    200
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "disabled_plugins": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "enabled_plugins": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "filetype_mapping": {},
+  "plugin_customization": {},
+  "plugins": {
+    "DeDRM": "/nobody/.config/calibre/plugins/DeDRM.zip",
+    "KePub Output": "/nobody/.config/calibre/plugins/KePub Output.zip",
+    "Kobo Books": "/nobody/.config/calibre/plugins/Kobo Books.zip"
+  }
+}
