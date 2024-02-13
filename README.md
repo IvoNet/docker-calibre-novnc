@@ -1,18 +1,51 @@
 # calibre ebook reader
 
 Web desktop docker image for: Calibre
+This version needs the [ivonet/docker-x11novnc](https://github.com/IvoNet/docker-x11novnc) image to work.
 
 # Usage
 
-See `run.sh` and `calibre.sh` for examples on how to run the application.
+example docker-compose.yml
+
+```yaml
+version: '3'
+
+services:
+    novnc:
+        image: ivonet/x11novnc:latest
+        environment:
+            - DISPLAY_WIDTH=1600
+            - DISPLAY_HEIGHT=950
+        ports:
+            - 10000:8080
+        networks:
+            - x11
+    calibre:
+        image: ivonet/calibre-novnc:7.4.0
+        volumes:
+            - "${HOME}/calibre/calibre-library:/calibre-library"
+            - "${HOME}/calibre/calibre-autoscan:/calibre-autoscan"
+            - "${HOME}/calibre/calibre-inbox:/root/inbox"
+        environment:
+            # Very important to set this to the novnc container as that container will be the display server
+            - DISPLAY=novnc:0.0
+        depends_on:
+            - novnc
+        networks:
+            - x11
+networks:
+    x11:
+    
+
+```
 
 # Volumes
 
-| Volume path          | Description                                             |
-| :--------------------| :-------------------------------------------------------|
-| `/calibre-library`   | the calibre-library where calibre will store its e-books|
-| `/calibre-autoscan`  | folder that will be auto scanned by calibre. Files in this folder will also be auto deleted after the auto import. |
-| `/nobody/inbox`      | shared folder where you can place e-books you can import at your leisure |
+| Volume path         | Description                                             |
+|:--------------------| :-------------------------------------------------------|
+| `/calibre-library`  | the calibre-library where calibre will store its e-books|
+| `/calibre-autoscan` | folder that will be auto scanned by calibre. Files in this folder will also be auto deleted after the auto import. |
+| `/root/inbox`       | shared folder where you can place e-books you can import at your leisure |
 
 # Exposed Ports
 
@@ -22,26 +55,6 @@ See `run.sh` and `calibre.sh` for examples on how to run the application.
 | `7777`               | the web interface of of calibre runs here               |
 
 
-# Base image configurable settings
-
-Lots of things can be configured through the base image.
-
-See repo [docker-x11webui](https://github.com/IvoNet/docker-x11webui/blob/master/README.md)
-for documentation on the base image.
-
-# For developers
-
-## Build 
-
-```shell
-make x86-callibre
-```
-
-or on an amd64/x86 machine
-
-```shell
-make release-intellij
-```
 
 ---
 # License
